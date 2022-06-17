@@ -1,3 +1,9 @@
+body{
+    background-image: url(../images/backgroun1.jpg);
+    
+   
+}
+
 .myform{
     /* border-style: solid; */
      padding: 100px; 
@@ -63,5 +69,63 @@
 .noaccount a{
 color: white;
 text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+
+    .welcome    {
+        display: none;
+            }
+    .welcome2
+    {
+display: none;
+    }
+
+    .form1{
+        float: none;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+
+    }
+    .form2{
+        
+        width: 100%;
+        float: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .myform{
+
+        
+    }
+    .myform2{
+        
+        padding: 20px;
+        margin: 0px; 
+        
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .welcome    {
+        width: 20%;
+        padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-top: 100px;
+            }
+    .welcome2
+    {
+        width: 20%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 100px;
+        
+    }
+    .myform{
+        padding: 10px;
+    }
 }
 
