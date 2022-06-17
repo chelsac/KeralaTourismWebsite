@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mylogo{
+    padding: 5px;
+    margin-left: 40px;
+    height: 70px;
+    width: 70px;
+}
+.text-items{
+float: right;
+margin: 20px;
+
+}
+.text-item{
+    margin: 20px;
+    padding-top: 30px;
+    color: black;
+    /* font-weight: 900; */
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.here{
+color: white;
+}
+.text-item:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+
+.slide img{
+    
+    height: 350px;
+}
+
+.header{
+background-color:  #28a745;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column1 {
+    float: left;
+    padding: 10px;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .left {
+    padding-top: 20px;
+    width: 25%;
+  }
+  
+  .right {
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 70px;
+    width: 75%;
+    font-family: cursive;
+    word-spacing: 10px;
+    font-size: 1.1em;
+    /* font-weight:600; */
+    line-height: 30px;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .footer-copyright{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    padding-bottom: 1px;
+    text-align: center;
+  }
+
+  .icon{
+    float: right;
+    font-size: 20px;
+}
+
+.icon a{
+  color: white;
+}
+.icon a:visited {
+  color: white;
+
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}

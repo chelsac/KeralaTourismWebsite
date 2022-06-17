@@ -1,0 +1,67 @@
+.myform{
+    /* border-style: solid; */
+     padding: 100px; 
+    background-image: url(../images/backgroun1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 585px;
+}
+
+.myform2{
+    /* border-style: solid; */
+     padding: 40px; 
+    background-image: url(../images/backgroun1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 585px;
+}
+
+.form1{
+    /* border-style: solid; */
+    width: 40%;
+    margin-right: 70px;
+    float: right;
+   color: white;
+   align-items: center;
+   padding-top: 40px;
+}
+
+.form2{
+    /* border-style: solid; */
+    width: 40%;
+    margin-right: 70px;
+    float: right;
+   color: white;
+   align-items: center;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 60px;
+}
+
+.welcome{
+    float: left;
+    /* border-style: solid; */
+    width: 50%;
+    color: white;
+    font-family: cursive;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+   
+}
+.welcome2{
+    float: left;
+    /* border-style: solid; */
+    width: 50%;
+    color: white;
+    font-family: cursive;
+    padding-left: 250px;
+    padding-right: 220px;
+    padding-top: 160px;
+   
+}
+.noaccount a{
+color: white;
+text-decoration: underline;
+}
+

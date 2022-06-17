@@ -1,0 +1,166 @@
+
+  
+  div.gallery img {
+    width: 320px;
+    height: 250px;
+    margin: 8px;
+    padding: 1px;
+    border-radius: 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.651) 0px 5px 15px; */
+    /* box-shadow: rgba(0, 0, 0, 0.3) -2.5px 2.5px, rgba(0, 0, 0, 0.2) -5px 5px; */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801), 0 6px 20px 0 rgba(0, 0, 0, 0.705); 
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  }
+  
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+  
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .overlay {
+    margin-top: 50px;
+    position: absolute;
+    top: 22.5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+ 
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+    width: 320px;
+    height: 250px;
+    margin: 8px;
+    padding-top: 110px;
+    border-radius: 15px;
+   
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .gallery:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay1 {
+    position: absolute;
+    top: 62.5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+ 
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    
+    text-align: center;
+    
+    width: 320px;
+    height: 250px;
+    margin: 8px;
+    padding: 1px;
+    border-radius: 15px;
+   
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .gallery:hover .overlay1 {
+    opacity: 1;
+  }
+
+  .overlay3 {
+    position: absolute;
+    top: 103%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+ 
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    
+    text-align: center;
+    
+    width: 320px;
+    height: 250px;
+    margin: 8px;
+    padding: 1px;
+    border-radius: 15px;
+   
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .gallery:hover .overlay3 {
+    opacity: 1;
+  }
+
+  .overlay4 {
+    position: absolute;
+    top: 143.5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+ 
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    
+    text-align: center;
+    
+    width: 320px;
+    height: 250px;
+    margin: 8px;
+    padding: 1px;
+    border-radius: 15px;
+   
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .gallery:hover .overlay4 {
+    opacity: 1;
+  }
+ 
+  h2{
+    font-family: cursive;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+  }
+  .overlay, .overlay1,.overlay3,.overlay4{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 110px;
+  }
+ 

@@ -1,0 +1,22 @@
+.mb-3{
+    padding: 30px;
+  }
+  .card-body{
+    /* margin-right: 60px; */
+    font-size: 1.2em;
+
+    margin-left: 100px;
+    text-align: center;
+  }
+
+
+  .card mb-10{
+    margin: 30px;
+  }
+  .card mb-2{
+    padding: 30px;
+  }
+  .card{
+    margin: 10px;
+    padding: 10px;
+  }
