@@ -213,6 +213,59 @@ else{
 
 }
 
+function loginpasswordvalid(){
+
+var count=0;
+let exp=/([0-9])+/ ;
+if(exp.test(pass1.value)){
+    count++;
+}
+if(pass1.value.length>=8){
+    count++;
+}
+let exp1=/([a-z])+/ ;
+if(exp1.test(pass1.value)){
+    count++;
+}
+
+let exp2=/([A-Z])+/ ;
+if(exp2.test(pass1.value)){
+    count++;
+}
+
+if(count==4){
+    pass1er.style.display="none";
+    pass1.style.border="solid";
+    pass1.style.borderColor = "rgba(0, 255, 0, 0.5)";
+
+    return true;
+}
+else if(count<=3 && count > 0){
+    pass1er.style.display="block";
+    pass1er.innerHTML="Invalid password";
+    pass1er.style.color="red";
+    pass1.style.border="solid";
+    pass1.style.borderColor = "rgba(255, 0, 0, 0.5)";
+    return false;
+}
+else{
+    pass1er.style.display="block";
+    pass1er.innerHTML="Password cannot be empty!";
+    pass1er.style.color="red";
+    pass1.style.border="solid";
+    pass1.style.borderColor = "rgba(255, 0, 0, 0.5)";
+    return false; 
+}
+
+}
+
+function loginvalid(){
+    emailvalidate();
+    loginpasswordvalid();
+    return emailvalidate() &&  loginpasswordvalid();
+
+}
+
 function valid(){
     emailvalidate();
     fnamevalidate();
