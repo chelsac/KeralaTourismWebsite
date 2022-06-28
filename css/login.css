@@ -129,3 +129,17 @@ display: none;
     }
 }
 
+.errors{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    display: none;
+  
+}
+.progress{
+    margin-top: 4px;
+
+}
+.progress{
+    display: none;
+}
